@@ -112,16 +112,16 @@ export default function Dashboard() {
                 <div className='alertFont'>
 
                 <div id='tableToggle' className="row table mt-5 ">
-                        <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                        <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>AMZN</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='lowRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>Low Risk</div>
                     </div>
 
@@ -131,16 +131,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle2' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>TSLA</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='highRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>High Risk</div>
                     </div>
 
@@ -150,16 +150,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle3' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>ABQQ</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='highRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>High Risk</div>
                     </div>
 
@@ -169,16 +169,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle4' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>MSFT</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='lowRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>Low Risk</div>
                     </div>
 
@@ -188,16 +188,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle5' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>PYPL</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='lowRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>Low Risk</div>
                     </div>
 
@@ -207,16 +207,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle6' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>ABQQ</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile ">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='highRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>High Risk</div>
                     </div>
 
@@ -226,16 +226,16 @@ export default function Dashboard() {
                     <p>This is an <a href="geeklabs.com">arbitrage opportunity</a>, with the max gain being X if the deal closes, but the possible risk is %Y if the deal fails, If the deal success is% and therefore the recommended play is <a href="geeklabs.com">long/short</a>  $ABC</p>
                   </div>
                   <div id='tableToggle7' className="row table">
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-check-dollar fs-1"></i> <div className='text-white brdr2'>ABQQ</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-folder-open fs-1"></i> <div className='text-white brdr2'>200</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-arrow-trend-up fs-1"></i> <div className='highRisk brdr2'>-0.25%</div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 ">
+                    <div className="col-md-3 d-flex justify-content-around align-items-center p-2 tableMobile">
                     <i className="fa-solid fa-money-bill fs-1"></i> <div className='text-white'>High Risk</div>
                     </div>
 
@@ -249,7 +249,7 @@ export default function Dashboard() {
           
               </div>
 
-              <div className="col-md-4 filterBG pt-3 filterFont">
+              <div className="col-md-4 filterBG pt-3 filterFont ">
                     <h4 className='text-center headingFont'>Filters</h4>
                     <div className='d-flex justify-content-between '>
                       <div className='fs-6 text-muted fw-bold'>Filters Applied</div>
@@ -257,8 +257,8 @@ export default function Dashboard() {
 
                     </div>
                     <input type="text" placeholder='' className='form-control'/> 
-                    <div className='greyBG mt-3 p-3'>
-                        <h5 className='headingFont'>Stock</h5>
+                    <div className='greyBG mt-3 p-3 tableMobile'>
+                        <h5 className='headingFont '>Stock</h5>
                         <input type="text" placeholder='Ticker' className='form-control'/> 
                         <h5 className='ps-3'><i className="fa-solid fa-caret-down"></i> Industry</h5>
                     <div className='d-flex justify-content-between '>

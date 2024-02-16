@@ -133,3 +133,15 @@ select{
 .filterFont{
   font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) {
+
+ .tableMobile{
+  display: block !important;
+  text-align: center !important;
+ }
+ .brdr2{
+  padding-right:0px !important;
+  border-right: 0px !important;
+ }
+  }

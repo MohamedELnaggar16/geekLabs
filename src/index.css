@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,126 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0 , 0.9) !important;
+  color: white;
+  font-family: Poppins !important;
+  
+}
+
+li{
+  list-style-type: none;
+}
+.navBG{
+  background-color: rgb(0, 0, 0);
+}
+span{
+  opacity: 0;
+  transition: all 0.2s !important;
+}
+.sideNavHover:hover span{
+  opacity: 1;
+}
+.sideNavHover{
+position: fixed;
+width: 80px;
+transition: all 0.4s;
+cursor: pointer;
+}
+.sideNavHover:hover{
+  width: 170px;
+}
+.sideNavHover:hover .logoSize{
+  width: 50% !important;
+}
+.logoSize{
+  width:30px !important;
+  transition: 0.25s;
+}
+.hoverLink:hover{
+  color: #53ACFF !important;
+}
+input{
+  background-color: #313131 !important;
+  border-color: #313131 !important;
+}
+.brdr{
+  border-left:  #53ACFF solid 5px;
+  padding-left: 15px;
+}
+.form-control::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+.alertColor{
+  color: #53ACFF;
+}
+.alertNotification{
+  border: #118F4B 1px solid ;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #118F4B;
+  color: white;
+}
+.table{
+  background-color: #313131 !important;
+  border-radius: 10px;
+}
+
+.brdr2{
+  border-right:  grey solid 1px;
+  padding-right:50px;
+}
+.lowRisk{
+  color: #D94111;
+}
+.highRisk{
+  color: #118F4B;
+}
+.filterBG{
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px
+}
+.greyBG{
+  background-color: #202020;
+
+  border-radius: 5px;
+}
+.brdrLeft{
+  border-left:  grey solid 1px;
+  padding-left:10px;
+  font-size: small !important;
+}
+.fSize{
+  font-size: small !important;
+}
+select{
+  border-right: none !important;
+  background-color: transparent !important;
+  color: white;
+}
+.btnEdit{
+  background-color: #53ACFF !important;
+  width:150px !important;
+}
+#tableToggle, #tableToggle2, #tableToggle3, #tableToggle4, #tableToggle5, #tableToggle6, #tableToggle7:hover{
+  cursor: pointer;
+}
+#hiddenParag, #hiddenParag2, #hiddenParag3, #hiddenParag4, #hiddenParag5, #hiddenParag6, #hiddenParag7{
+ border-radius: 10px;
+ display: none ;
+}
+.headingFont{
+  font-weight: bold;
+}
+.alertFont{
+  font-weight:100;
+}
+.filterFont{
+  font-weight: 600;
 }
